@@ -1,0 +1,359 @@
+a.skip-link{
+	left:-999px;
+	position:absolute;
+	top:auto;
+	width:1px;
+	height:1px;
+	overflow:hidden;
+	z-index:-999;
+}
+
+/*a.skip-link: focus, a.skip-link:active{
+	color:#fff;
+	background-color:#000;
+	left:auto;
+	width: 30%;
+	height:auto;
+}
+
+
+
+
+/*-----------------------------------------*/
+
+body{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:15px;
+	line-height:1.5;
+	padding:0;
+	margin:0;
+	background-color: #F2F2F2;
+	
+}
+
+#boxes a:link{
+	color: black;
+}
+
+#boxes a:visited{
+	color:black;
+}
+
+.navigate .icon {
+display: none;}
+
+div.menu {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+  
+
+.container{
+	width:80%;
+	margin: auto;
+	overflow: hidden;
+}
+
+ul{
+	margin: 0;
+	padding: 0;
+}
+
+header{
+	background:#2E2E2E;
+	color: #ffffff;
+	padding-top: 30px;
+	min-height:70px;
+	border-bottom:#465137 3px solid;
+}
+
+header a{
+	color: #ffffff;
+	text-decoration:none;
+	text-transform: uppercase;
+	font-size:16px;
+}
+
+
+header li{
+	float:left;
+	display:inline;
+	padding: 0 20px 0 20px;
+}
+
+header #branding{
+	float:left;
+}
+
+header #branding h1{
+	margin:0;
+}
+
+header nav{
+	float: right;
+	margin-top:13px;
+}
+
+header .highlight, header .current a{
+	color:#465137;
+	font-weight: Bold;
+}
+
+header img{
+	width:50px;
+	height: auto;
+	margin: 0 0 -12px 0;
+}
+
+header a:hover{
+	color: #cccccc;
+	font-weight:bold;
+}
+
+table{
+	border: solid black;
+	border-collapse:collapse;
+	width:75%;
+	margin-left:12%;
+	margin-top:2.80%;
+	padding:5px;
+	margin-bottom:5%;
+}
+
+table caption{
+	text-size:60px;
+}
+
+th{
+	background-color:#cccccc;
+}
+
+th,td{
+	border:2px solid black;
+	padding:3px;
+	text-align:center;
+}
+
+#showcase{
+	min-height:400px;
+	background:url('../images/lifestyle2.jpg');
+	background-size: 100%;
+	text-align:center;
+	color:#ffffff;
+}
+
+#showcase h1{
+	margin-top:100px;
+	font-size:55px;
+	margin-bottom:10px;
+}
+
+#showcase p{
+	font-size:20px;
+}
+
+#newsletter {
+	padding: 15px;
+	color:#ffffff;
+	background: #2E2E2E;
+}
+
+#newsletter h2{
+	float:left;
+}
+
+#newsletter form{
+	float:right;
+	margin-top: 15px;
+}
+
+#newsletter input[type="email"]{
+	padding:4px;
+	height:25px;
+	width:250px;
+}
+
+.button_1{
+	height:38px;
+	background:#465137;
+	border:0;
+	padding-left:20px;
+	padding-right:20px;
+	color: #ffffff;
+}
+
+.button_1:hover{
+	background: #cccccc;
+	color: #000000;
+}
+
+
+#boxes{
+	margin-top:20px;
+}
+
+#boxes .box{
+	float:left;
+	text-align:center;
+	width:30%;
+	padding:10px;
+}
+
+#boxes .box img{
+	width:120px;
+}
+
+#boxes .box:hover{
+	background: #cccccc;
+}
+
+aside#sidebar{
+	float: right;
+	width: 30%;
+	margin-top: 10px;
+}
+
+article#main-col{
+	float:left;
+	width:65%;
+}
+
+.description{
+	margin:2% 12% 0 12%;
+}
+
+
+.right{
+	float:right;
+	width:56%;
+	margin-top:40px;
+	padding-left: 15px;
+	padding-bottom: 100px;
+}
+
+article img{
+	margin-top: 35px;
+	margin-left: 6px;
+	width: 280px;
+	height: auto;
+}
+
+.contact input, textarea{
+	border-radius: 5px;
+}
+
+.dark{
+	padding: 15px;
+	background: #35424a;
+	color:#ffffff;
+	margin-top:50px;
+	margin-bottom:15px;
+}
+
+.contact input{
+	width:90%;
+	padding:5px;
+	margin-left:10px;
+}
+
+.contact textarea{
+	width:90%;
+	padding:5px;
+	padding-bottom:50px;
+	margin-left:10px;
+}
+
+footer{
+	padding:5px;
+	margin-top:15px;
+	color: #ffffff;
+	background:#465137;
+	text-align:center;
+}
+
+
+@media (min-width: 769px){
+	#showcase{
+	background-position: 0 -400px;
+	}
+}
+
+@media(max-width: 768px){
+	header #branding,
+	header nav,
+	header nav li,
+	#newsletter h2,
+	#newsletter form,
+	#boxes .box,
+	article#main-col,
+	aside#sidebar{
+		float: none;
+		text-align: center;
+		width: 100%;
+	}
+	
+	#showcase{
+		background-position:100%;
+		min-height:270px;
+	}
+	
+	header{
+		padding-bottom: 20px;
+	}
+	
+	#showcase h1{
+		margin-top: 40px;
+	}
+	
+	#newsletter button, .contact button{
+		width:100%;
+		display: block;
+	}
+	
+	#newsletter form input[type="email"]{
+		width:100%;
+		margin-bottom:5px;
+	} 
+	
+	.right{
+	float: none;
+	text-align: center;
+	width:100%;
+	margin-bottom: -80px;
+	}
+}
+
+
+@media screen and (max-width: 480px) {
+	nav li:not(:first-child){
+	  display: none;
+	}
+ 
+	nav li{
+		padding-bottom: 7px;
+	}
+	
+	nav li:first-child{
+		padding-top: 4px;
+	}
+	
+	.navigate a.icon {
+    float: right;
+    display: block;
+  }
+  
+}
+
+@media screen and (max-width: 480px) {
+  .navigate.responsive {position: relative;}  
+  .navigate.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .navigate.responsive li {
+    float: none;
+    display: block;
+    text-align: left;
+  }

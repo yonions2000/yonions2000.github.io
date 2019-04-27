@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+	<a class="skip-link" href="#main" tabindex="-1">Skip to page content</a>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-with">
+		<script src="javascript.js"></script>
+
+		<title>LifeStyle | Contact</title>
+		<link rel="stylesheet" href="./css/style.css">
+	</head>
+	<body>
+		<header>
+			<div class="container">
+				<div id="branding">
+					<h1><a href="LifeStyle.html"><img src="./images/triskle_logo.png" alt="page logo, green triskele with the words">Life<span class="highlight">Style</span></a></h1>
+				</div>
+				<div class="menu">
+				<nav class="navigate" id="navigation">
+					<ul>
+						<li><a href="LifeStyle.html">Home</a></li>
+						<a href="javascript:void(0);" style="font-size:15px;" class="icon" aria-label="Drop down menu" onclick="myResponsMenu()">&#9776;</a>	
+						<li class="current"><a href="contact.html">Contact</a></li>
+						<li><a href="about.html">About</a></li>
+					</ul>
+				</nav>
+				</div>
+			</div>
+		</header>
+		
+		<section id="newsletter">
+			<div class="container">
+				<h2><label for="news">Receive News From Our Growing Community</label></h2>
+				<form aria-label=" To Receive News From Our Growing Community, fill in the following input section with your email address.">
+					<input type="email" id="news" aria-label=" To Receive News From Our Growing Community, fill in the following input section with your email address." placeholder="Enter Your email...">
+					<button type="submit" class="button_1">Subscribe</button>
+				</form>
+		</section>
+		
+		<section id="main">
+			<div class="container">
+				<article id="main-col">
+					<h2 class="page-title">Contact us</h2>
+				</article>
+				
+					<div class="dark">
+								
+					<form class="contact" method="post" action="#" onsubmit="return checkforblank()" aria-label="Feel free to reach to us, by using the form that follows.">		
+						
+						
+						<h3>Feel Free To Reach Out To Us</h3>
+
+						<div>
+							<label for="_name">Name</label><br>
+							<input type="text" id="_name" placeholder="Name">
+						</div>
+						<div>
+							<label for="_email">Email</label><br>
+							<input type="email" id="_email" placeholder="Email Address">
+						</div>
+						<div>
+							<label for="_subject">Subject</label><br>
+							<input type="text" id="_subject" placeholder="Topic">
+						</div>
+						<div>
+							<label for="_msg">Message</label><br>
+							<textarea placeholder="Message" id="_msg"></textarea>
+						</div>
+						<button class="button_1" type="submit">Send</button>
+						
+					</form>
+		</section>
+		
+		<footer>
+			<p>LifeStyle, CopyRight &copy; 2019</p>
+		</footer>
+	</body>
+</html>
